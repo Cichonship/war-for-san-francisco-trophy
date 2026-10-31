@@ -20,4 +20,4 @@ The 2024 printed tag is shortened to `2024 / BUFF BOYS / ALL GROWN UP` and omits
 
 ## Implementation
 
-Static Three.js viewer. No accounts, analytics, remote libraries or server backend are required. All model and script assets are hosted in this repository. Eight model/DOM tests passed; WebGL rendering was not browser-automated. Third-party license text is in `Third Party Notices.md`.
+Static Three.js viewer. No accounts, analytics, remote libraries or server backend are required. All model and script assets are hosted in this repository. Nine model/color/DOM tests passed; WebGL rendering was not browser-automated. Third-party license text is in `Third Party Notices.md`.
