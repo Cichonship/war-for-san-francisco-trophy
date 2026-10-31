@@ -1,0 +1,143 @@
+{
+  "slicer": "Bambu Studio 02.08.02.61",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "jobs": [
+    {
+      "id": 1,
+      "seconds": 11829,
+      "grams": 84.56,
+      "changes": 4,
+      "supportsUsed": false,
+      "filaments": [
+        {
+          "id": 1,
+          "color": "#233F60",
+          "grams": 80.05
+        },
+        {
+          "id": 2,
+          "color": "#D3A547",
+          "grams": 0.95
+        },
+        {
+          "id": 3,
+          "color": "#B82631",
+          "grams": 3.55
+        }
+      ],
+      "toolSequenceZeroBased": [
+        0,
+        2,
+        0,
+        1,
+        0
+      ],
+      "warnings": []
+    },
+    {
+      "id": 2,
+      "seconds": 11037,
+      "grams": 78.02,
+      "changes": 3,
+      "supportsUsed": true,
+      "filaments": [
+        {
+          "id": 1,
+          "color": "#233F60",
+          "grams": 71.62
+        },
+        {
+          "id": 2,
+          "color": "#D3A547",
+          "grams": 6.4
+        }
+      ],
+      "toolSequenceZeroBased": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "warnings": []
+    },
+    {
+      "id": 3,
+      "seconds": 4047,
+      "grams": 7.39,
+      "changes": 0,
+      "supportsUsed": false,
+      "filaments": [
+        {
+          "id": 3,
+          "color": "#B82631",
+          "grams": 7.39
+        }
+      ],
+      "toolSequenceZeroBased": [
+        2
+      ],
+      "warnings": [
+        "not_support_traditional_timelapse",
+        "not_support_traditional_timelapse"
+      ]
+    },
+    {
+      "id": 4,
+      "seconds": 1765,
+      "grams": 7.84,
+      "changes": 1,
+      "supportsUsed": false,
+      "filaments": [
+        {
+          "id": 1,
+          "color": "#233F60",
+          "grams": 4.03
+        },
+        {
+          "id": 2,
+          "color": "#D3A547",
+          "grams": 3.8
+        }
+      ],
+      "toolSequenceZeroBased": [
+        0,
+        1
+      ],
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "seconds": 1217,
+      "grams": 3.95,
+      "changes": 1,
+      "supportsUsed": false,
+      "filaments": [
+        {
+          "id": 1,
+          "color": "#233F60",
+          "grams": 0.38
+        },
+        {
+          "id": 2,
+          "color": "#D3A547",
+          "grams": 3.57
+        }
+      ],
+      "toolSequenceZeroBased": [
+        1,
+        0
+      ],
+      "warnings": []
+    }
+  ],
+  "totalSeconds": 29895,
+  "totalGrams": 181.76,
+  "totalChanges": 9,
+  "physicalFitTested": false,
+  "notes": [
+    "Estimates, not measurements from a physical print.",
+    "Material accounting may omit startup/end purges in machine macros.",
+    "Five initial loads are excluded from the in-print tool change count.",
+    "Cup has build-plate supports; the bridge is sliced without supports but still needs a physical test."
+  ]
+}

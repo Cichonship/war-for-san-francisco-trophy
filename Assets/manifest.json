@@ -1,0 +1,721 @@
+{
+  "title": "The War for San Francisco",
+  "design": "4A-2",
+  "version": "7 Inch Edition / Prototype 02",
+  "heightMm": 177.8,
+  "heightInches": 7,
+  "baseHeightMm": 19.261666666666667,
+  "football": {
+    "lengthMm": 48,
+    "diameterMm": 26,
+    "reliefMm": 13,
+    "laceCount": 8,
+    "focus": [
+      1.7332704402515724,
+      -22.53401980790135,
+      66.11018725771538
+    ]
+  },
+  "winnerTagSizeMm": [
+    31.5,
+    10.4,
+    2.0
+  ],
+  "colors": {
+    "navy": "#233f60",
+    "gold": "#d3a547",
+    "red": "#b82631"
+  },
+  "parts": [
+    {
+      "id": "01-pedestal",
+      "label": "Base + pedestal",
+      "job": 1,
+      "colors": [
+        "navy",
+        "gold",
+        "red"
+      ],
+      "assemblyMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "explode": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localBounds": [
+        [
+          -58.177467346191406,
+          -58.177467346191406,
+          0.0
+        ],
+        [
+          58.177467346191406,
+          58.177467346191406,
+          102.23500061035156
+        ]
+      ],
+      "localSize": [
+        116.35493469238281,
+        116.35493469238281,
+        102.23500061035156
+      ],
+      "solidVolumeMm3": 266492.4912255256,
+      "notes": "One printed body. The red base stripe is a full-height band; gold perimeter is restricted to a few top-base layers.",
+      "risk": "Small inset text and pocket fits require a test. No long vertical gold color swaps in the structural body.",
+      "meshes": [
+        "01-pedestal__navy",
+        "01-pedestal__gold",
+        "01-pedestal__red"
+      ],
+      "bedOffset": [
+        128.0,
+        128.0,
+        -0.0
+      ]
+    },
+    {
+      "id": "02-cup",
+      "label": "Open cup + gold rim",
+      "job": 2,
+      "colors": [
+        "navy",
+        "gold"
+      ],
+      "assemblyMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        97.79,
+        1.0
+      ],
+      "explode": [
+        0.0,
+        0.0,
+        53.34
+      ],
+      "localBounds": [
+        [
+          -59.82012176513672,
+          -59.82012176513672,
+          0.0
+        ],
+        [
+          59.82012176513672,
+          59.82012176513672,
+          80.01000213623047
+        ]
+      ],
+      "localSize": [
+        119.64024353027344,
+        119.64024353027344,
+        80.01000213623047
+      ],
+      "solidVolumeMm3": 54924.854286044145,
+      "notes": "Upright print with removable supports under the underside ledge, outside the bowl. Three deliberate blue/gold transitions: lower collar, back to blue, then gold rim.",
+      "risk": "The 0.25 mm-per-side keyed socket clearance must be tested before gluing.",
+      "meshes": [
+        "02-cup__navy",
+        "02-cup__gold"
+      ],
+      "bedOffset": [
+        128.0,
+        128.0,
+        -0.0
+      ]
+    },
+    {
+      "id": "03-bridge",
+      "label": "One-piece bridge sleeve",
+      "job": 3,
+      "colors": [
+        "red"
+      ],
+      "assemblyMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        125.20083333333334,
+        1.0
+      ],
+      "explode": [
+        0.0,
+        -62.97083333333333,
+        25.929166666666667
+      ],
+      "localBounds": [
+        [
+          -47.64817428588867,
+          -47.64817428588867,
+          0.0
+        ],
+        [
+          47.64817428588867,
+          47.64817428588867,
+          45.190834045410156
+        ]
+      ],
+      "localSize": [
+        95.29634857177734,
+        95.29634857177734,
+        45.190834045410156
+      ],
+      "solidVolumeMm3": 6351.137862220142,
+      "notes": "Print upright as one red piece. Slide it over the narrow bottom of the cup before joining the cup to the pedestal. Align the front span, then use small glue dots.",
+      "risk": "Highest-risk part: short cable bridges, slender hangers, and collar clearance need a physical test. Handle by its bottom ring.",
+      "meshes": [
+        "03-bridge__red"
+      ],
+      "bedOffset": [
+        128.0,
+        128.0,
+        -0.0
+      ]
+    },
+    {
+      "id": "04-front",
+      "label": "Football + front trim panel",
+      "job": 4,
+      "colors": [
+        "navy",
+        "gold"
+      ],
+      "assemblyMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.1528089873970078,
+        0.9882557428979105,
+        0.0,
+        0.0,
+        -0.9882557428979105,
+        0.1528089873970078,
+        0.0,
+        0.0,
+        -16.532640100022782,
+        59.113857679269664,
+        1.0
+      ],
+      "explode": [
+        0.0,
+        -40.74583333333334,
+        0.0
+      ],
+      "localBounds": [
+        [
+          -28.045433044433594,
+          -37.48186492919922,
+          0.0
+        ],
+        [
+          28.269081115722656,
+          34.483314514160156,
+          14.772722244262695
+        ]
+      ],
+      "localSize": [
+        56.31451416015625,
+        71.96517944335938,
+        14.772722244262695
+      ],
+      "solidVolumeMm3": 10431.525447073098,
+      "notes": "Print flat, blue backing first and all gold relief above it: one planned change. Glue into the single front recess.",
+      "risk": "Same-color gold laces are geometry, not another filament. Silk PLA is decorative, not a flexing clip.",
+      "meshes": [
+        "04-front__navy",
+        "04-front__gold"
+      ],
+      "bedOffset": [
+        127.88817596435547,
+        129.49927520751953,
+        -0.0
+      ]
+    },
+    {
+      "id": "05-title",
+      "label": "League title plaque",
+      "job": 5,
+      "colors": [
+        "gold",
+        "navy"
+      ],
+      "assemblyMatrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        -56.77746406184615,
+        9.779,
+        1.0
+      ],
+      "explode": [
+        0.0,
+        -25.929166666666667,
+        -4.445
+      ],
+      "localBounds": [
+        [
+          -22.75,
+          -4.199999809265137,
+          0.0
+        ],
+        [
+          22.75,
+          4.199999809265137,
+          2.0
+        ]
+      ],
+      "localSize": [
+        45.5,
+        8.399999618530273,
+        2.0
+      ],
+      "solidVolumeMm3": 576.3041495161243,
+      "notes": "Gold plaque with dark blue lettering; same backing height as the winner tags.",
+      "risk": "Typeface legibility still needs a real 0.4 mm-nozzle test.",
+      "meshes": [
+        "05-title__gold",
+        "05-title__navy"
+      ],
+      "bedOffset": [
+        128.0,
+        75.0,
+        -0.0
+      ]
+    },
+    {
+      "id": "06-winner-2022",
+      "label": "2022 / THE CHEESEN WON",
+      "job": 5,
+      "colors": [
+        "gold",
+        "navy"
+      ],
+      "assemblyMatrix": [
+        -0.5394269906817064,
+        0.8420323756982735,
+        0.0,
+        0.0,
+        -0.04341970925987686,
+        -0.027815751244608607,
+        0.9986696214617155,
+        0.0,
+        0.8409121538971036,
+        0.5387093485903319,
+        0.051565367927652574,
+        0.0,
+        11.193241852468583,
+        -0.7541930880264646,
+        65.12114181823462,
+        1.0
+      ],
+      "explode": [
+        33.3375,
+        25.929166666666667,
+        0.0
+      ],
+      "localBounds": [
+        [
+          -15.75,
+          -5.199999809265137,
+          0.0
+        ],
+        [
+          15.75,
+          5.199999809265137,
+          2.0
+        ]
+      ],
+      "localSize": [
+        31.5,
+        10.399999618530273,
+        2.0
+      ],
+      "solidVolumeMm3": 479.64523810395207,
+      "notes": "Slide into the matching shallow rear pocket and use thin double-sided adhesive. Four other pockets remain empty for additions.",
+      "risk": "2024 uses three lines; the \u2122 mark is omitted from the small printed tag. Confirm displayed names before printing.",
+      "meshes": [
+        "06-winner-2022__gold",
+        "06-winner-2022__navy"
+      ],
+      "bedOffset": [
+        100.0,
+        100.0,
+        -0.0
+      ]
+    },
+    {
+      "id": "06-winner-2023",
+      "label": "2023 / ME COLE, HARD MAN",
+      "job": 5,
+      "colors": [
+        "gold",
+        "navy"
+      ],
+      "assemblyMatrix": [
+        -0.5394269906817064,
+        0.8420323756982735,
+        0.0,
+        0.0,
+        -0.04341970925987686,
+        -0.027815751244608607,
+        0.9986696214617155,
+        0.0,
+        0.8409121538971036,
+        0.5387093485903319,
+        0.051565367927652574,
+        0.0,
+        11.920097198380533,
+        -0.7541930880264646,
+        53.26780848490128,
+        1.0
+      ],
+      "explode": [
+        33.3375,
+        31.855833333333333,
+        0.0
+      ],
+      "localBounds": [
+        [
+          -15.75,
+          -5.199999809265137,
+          0.0
+        ],
+        [
+          15.75,
+          5.199999809265137,
+          2.0
+        ]
+      ],
+      "localSize": [
+        31.5,
+        10.399999618530273,
+        2.0
+      ],
+      "solidVolumeMm3": 477.8762459115312,
+      "notes": "Slide into the matching shallow rear pocket and use thin double-sided adhesive. Four other pockets remain empty for additions.",
+      "risk": "2024 uses three lines; the \u2122 mark is omitted from the small printed tag. Confirm displayed names before printing.",
+      "meshes": [
+        "06-winner-2023__gold",
+        "06-winner-2023__navy"
+      ],
+      "bedOffset": [
+        155.0,
+        100.0,
+        -0.0
+      ]
+    },
+    {
+      "id": "06-winner-2024",
+      "label": "2024 / BUFF BOYS ALL GROWN UP",
+      "job": 5,
+      "colors": [
+        "gold",
+        "navy"
+      ],
+      "assemblyMatrix": [
+        -0.5394269906817064,
+        0.8420323756982735,
+        0.0,
+        0.0,
+        -0.04341970925987686,
+        -0.027815751244608607,
+        0.9986696214617155,
+        0.0,
+        0.8409121538971036,
+        0.5387093485903319,
+        0.051565367927652574,
+        0.0,
+        12.646952544292484,
+        -0.7541930880264646,
+        41.414475151567956,
+        1.0
+      ],
+      "explode": [
+        33.3375,
+        37.7825,
+        0.0
+      ],
+      "localBounds": [
+        [
+          -15.75,
+          -5.199999809265137,
+          0.0
+        ],
+        [
+          15.75,
+          5.199999809265137,
+          2.0
+        ]
+      ],
+      "localSize": [
+        31.5,
+        10.399999618530273,
+        2.0
+      ],
+      "solidVolumeMm3": 490.1509557092713,
+      "notes": "Slide into the matching shallow rear pocket and use thin double-sided adhesive. Four other pockets remain empty for additions.",
+      "risk": "2024 uses three lines; the \u2122 mark is omitted from the small printed tag. Confirm displayed names before printing.",
+      "meshes": [
+        "06-winner-2024__gold",
+        "06-winner-2024__navy"
+      ],
+      "bedOffset": [
+        100.0,
+        125.0,
+        -0.0
+      ]
+    },
+    {
+      "id": "06-winner-2025",
+      "label": "2025 / LIL BUFF CHAMPS",
+      "job": 5,
+      "colors": [
+        "gold",
+        "navy"
+      ],
+      "assemblyMatrix": [
+        -0.5394269906817064,
+        0.8420323756982735,
+        0.0,
+        0.0,
+        -0.04341970925987686,
+        -0.027815751244608607,
+        0.9986696214617155,
+        0.0,
+        0.8409121538971036,
+        0.5387093485903319,
+        0.051565367927652574,
+        0.0,
+        13.373807890204434,
+        -0.7541930880264646,
+        29.56114181823462,
+        1.0
+      ],
+      "explode": [
+        33.3375,
+        43.70916666666667,
+        0.0
+      ],
+      "localBounds": [
+        [
+          -15.75,
+          -5.199999809265137,
+          0.0
+        ],
+        [
+          15.75,
+          5.199999809265137,
+          2.0
+        ]
+      ],
+      "localSize": [
+        31.5,
+        10.399999618530273,
+        2.0
+      ],
+      "solidVolumeMm3": 480.0876366714809,
+      "notes": "Slide into the matching shallow rear pocket and use thin double-sided adhesive. Four other pockets remain empty for additions.",
+      "risk": "2024 uses three lines; the \u2122 mark is omitted from the small printed tag. Confirm displayed names before printing.",
+      "meshes": [
+        "06-winner-2025__gold",
+        "06-winner-2025__navy"
+      ],
+      "bedOffset": [
+        155.0,
+        125.0,
+        -0.0
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Pedestal",
+      "description": "Base and stem together; short red stripe and a shallow gold perimeter.",
+      "targetChanges": "A few mixed-color base layers",
+      "orientation": "Base flat, stem upright",
+      "parts": [
+        "01-pedestal"
+      ],
+      "positions": [
+        [
+          128,
+          128
+        ]
+      ],
+      "geometryMixedColorLayers": 2,
+      "geometryColorSetTransitions": 4
+    },
+    {
+      "id": 2,
+      "title": "Cup",
+      "description": "Blue body with lower gold collar and top rim.",
+      "targetChanges": "3 height-based transitions",
+      "orientation": "Cup upright; build-plate supports under the underside ledge",
+      "parts": [
+        "02-cup"
+      ],
+      "positions": [
+        [
+          128,
+          128
+        ]
+      ],
+      "geometryMixedColorLayers": 0,
+      "geometryColorSetTransitions": 3
+    },
+    {
+      "id": 3,
+      "title": "Bridge sleeve",
+      "description": "One red cage. No eight-panel assembly.",
+      "targetChanges": "0",
+      "orientation": "Bottom ring on bed",
+      "parts": [
+        "03-bridge"
+      ],
+      "positions": [
+        [
+          128,
+          128
+        ]
+      ],
+      "geometryMixedColorLayers": 0,
+      "geometryColorSetTransitions": 0
+    },
+    {
+      "id": 4,
+      "title": "Football panel",
+      "description": "Flat blue panel, then gold football and trim.",
+      "targetChanges": "1",
+      "orientation": "Flat back on bed",
+      "parts": [
+        "04-front"
+      ],
+      "positions": [
+        [
+          128,
+          128
+        ]
+      ],
+      "geometryMixedColorLayers": 0,
+      "geometryColorSetTransitions": 1
+    },
+    {
+      "id": 5,
+      "title": "Title + winners",
+      "description": "All gold backgrounds finish together, then all navy lettering.",
+      "targetChanges": "1 for all five labels",
+      "orientation": "Flat, text facing up",
+      "parts": [
+        "05-title",
+        "06-winner-2022",
+        "06-winner-2023",
+        "06-winner-2024",
+        "06-winner-2025"
+      ],
+      "positions": [
+        [
+          128,
+          75
+        ],
+        [
+          100,
+          100
+        ],
+        [
+          155,
+          100
+        ],
+        [
+          100,
+          125
+        ],
+        [
+          155,
+          125
+        ]
+      ],
+      "geometryMixedColorLayers": 0,
+      "geometryColorSetTransitions": 1
+    }
+  ],
+  "mainParts": 4,
+  "labelParts": 5,
+  "spareTagPockets": 4,
+  "easterEggs": false,
+  "assemblyBounds": [
+    [
+      -59.82012176513672,
+      -59.82012176513672,
+      0.0
+    ],
+    [
+      59.82012176513672,
+      59.82012176513672,
+      177.8000021362305
+    ]
+  ],
+  "status": "Watertight model prototype; not physically fit-tested. Slicer results are reported separately.",
+  "assemblySteps": [
+    "Dry-fit the included peg/socket coupon before printing the full trophy.",
+    "Slide the red bridge sleeve onto the narrow bottom of the cup. Align the front span and secure with small glue dots.",
+    "Seat the cup on the rectangular pedestal key. Add glue only after checking orientation and fit.",
+    "Glue the single football panel into the front recess, then attach the title and four winner tags with thin adhesive."
+  ],
+  "risks": [
+    "Bridge sleeve: short spans and slender posts require a physical print test.",
+    "Joint clearances are nominal, not calibrated to your filament.",
+    "Winner lettering, especially the three-line 2024 tag, needs a legibility test.",
+    "PLA trophy for display, not drinking or hot liquids."
+  ]
+}
